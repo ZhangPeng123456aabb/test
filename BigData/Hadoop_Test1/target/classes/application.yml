@@ -1,0 +1,25 @@
+#如果使用application.properties配置文件，就应该是
+#server.port=8989
+
+#在这个配置文件中通过 key:value的方式更改默认的配置
+server:
+  port: 8989
+  servlet:
+    context-path: /HadoopTest
+    jsp:
+      init-parameters:
+        development: true
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+  jackson:
+    date-format: yyyy年MM月dd日 #如果使用字符串表示，用这行设置格式
+    timezone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false #使用时间戳，使用数值timestamp表示日期
+
+
+

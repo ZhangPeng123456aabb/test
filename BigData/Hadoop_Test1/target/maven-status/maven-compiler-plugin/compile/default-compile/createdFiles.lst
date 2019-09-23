@@ -1,0 +1,5 @@
+com\hadoop\configure\conf.class
+com\hadoop\controller\HdfsAction.class
+com\hadoop\HadoopApplication.class
+com\hadoop\service\HdfsService.class
+com\hadoop\service\impl\HdfsServiceImpl.class

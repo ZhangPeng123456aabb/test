@@ -1,0 +1,20 @@
+
+isquid:S1192%"KDefine a constant instead of duplicating this literal "E:\\A.docx" 3 times.(¾×‚İ8õõ±üÓ-
+esquid:S00112F"FDefine and throw a dedicated exception instead of using a generic one.( ÅŠÈ8©ÅôüÓ-
+V
+squid:S106I"9Replace this use of System.out or System.err by a logger.(Ğîô©8ÕÁöüÓ-
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(ãüÙ¹ıÿÿÿÿ8Ç÷üÓ-
+squid:S1450"\Remove the "configuration" field and declare it as a local variable in the relevant methods.(ù¯ş»úÿÿÿÿ8õèİûÓ-
+jsquid:S00112("FDefine and throw a dedicated exception instead of using a generic one.(øÈÁ¸úÿÿÿÿ8ÇİéûÓ-
+esquid:S00112B"FDefine and throw a dedicated exception instead of using a generic one.(‹³ó¯8ó´ãüÓ-
+ksquid:S2095)"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÑÍúâ8ùõèûÓ-
+jsquid:S001122"FDefine and throw a dedicated exception instead of using a generic one.(¨¯Üéøÿÿÿÿ8ĞÛ­üÓ-
+qsquid:S20953"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(×öüıÿÿÿÿ8õõ±üÓ-
+jsquid:S00112O"FDefine and throw a dedicated exception instead of using a generic one.(±æ¬Ûøÿÿÿÿ8–ıüÓ-
+[
+squid:S106="9Replace this use of System.out or System.err by a logger.(ıŸ…“ÿÿÿÿÿ8ö×ĞüÓ-
+jsquid:S00112."FDefine and throw a dedicated exception instead of using a generic one.(ƒÅî˜øÿÿÿÿ8Ê¿„üÓ-
+jsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ö©óéùÿÿÿÿ8˜ä–ûÓ-
+jsquid:S00112$"FDefine and throw a dedicated exception instead of using a generic one.(ı–Ø‹ıÿÿÿÿ8ËüÉûÓ-
+esquid:S001128"FDefine and throw a dedicated exception instead of using a generic one.(‹µƒ8“ÉüÓ-
