@@ -8,11 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Hadoop_Test" />
         <module name="Hadoop_Test1" />
+        <module name="Hbase" />
+        <module name="ZooKeeper_Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Hadoop_Test" target="1.8" />
       <module name="Hadoop_Test1" target="1.8" />
+      <module name="Hbase" target="1.7" />
+      <module name="ZooKeeper_Test" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

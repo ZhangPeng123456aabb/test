@@ -1,0 +1,32 @@
+
+V
+squid:S106<"9Replace this use of System.out or System.err by a logger.(¯Ÿ¦8şÄ©™Ö-
+Usquid:S16110"2Remove the parentheses around the "name" parameter(ãö¶Óøÿÿÿÿ8¾ÑÎ˜Ö-
+U
+squid:S106P"9Replace this use of System.out or System.err by a logger.(“Ÿ&8ÀÌ×™Ö-
+[
+squid:S106M"9Replace this use of System.out or System.err by a logger.(È†şúÿÿÿÿ8„¯Ó™Ö-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8å•³™Ö-
+V
+squid:S1061"9Replace this use of System.out or System.err by a logger.(«‹Îõ8—®Ï˜Ö-
+V
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ô©ûû8¨ßÉ™Ö-
+jsquid:S00112B"FDefine and throw a dedicated exception instead of using a generic one.(ıµµÌùÿÿÿÿ8šüÄ™Ö-
+hsquid:UselessImportCheck"8Remove this unused import 'org.omg.CORBA.PUBLIC_MEMBER'.(œŠÆÊÿÿÿÿÿ8å•³™Ö-
+jsquid:S001125"FDefine and throw a dedicated exception instead of using a generic one.(Å¦è—ÿÿÿÿÿ8ˆ ¨™Ö-
+ksquid:UselessImportCheck
+";Remove this unused import 'org.apache.zookeeper.data.Stat'.(ä˜ ©şÿÿÿÿ8å•³™Ö-
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ìËë—Ö-
+Osquid:S16020",Remove useless curly braces around statement(ãö¶Óøÿÿÿÿ8—®Ï˜Ö-
+Nsquid:UselessImportCheck"Remove this duplicated import.(äåÒÛÿÿÿÿÿ8å•³™Ö-
+fsquid:UselessImportCheck";Remove this unused import 'org.apache.curator.RetryPolicy'.( öçÃ8å•³™Ö-
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(ùùÒÔùÿÿÿÿ8¨ßÉ™Ö-
+Osquid:S16120",Replace this lambda with a method reference.(ãö¶Óøÿÿÿÿ8—®Ï˜Ö-
+Nsquid:UselessImportCheck"Remove this duplicated import.(æ÷–£ùÿÿÿÿ8å•³™Ö-
+…squid:UselessImportCheck"URemove this unused import 'com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer'.(ùùÒÔùÿÿÿÿ8¨ßÉ™Ö-
+squid:UselessImportCheck"ORemove this unused import 'org.junit.experimental.theories.suppliers.TestedOn'.(´£İüÿÿÿÿ8å•³™Ö-
+“"squid:SwitchLastCaseIsDefaultCheckH"YComplete cases by adding the missing enum constants or add a default case to this switch.(…şÛìûÿÿÿÿ8ô¤È™Ö-
+fsquid:S1192'"HDefine a constant instead of duplicating this literal "/baizhi" 4 times.(Â˜ë‹8¹«¼™Ö-
+U
+squid:S106("9Replace this use of System.out or System.err by a logger.(´şµ8¡Ó°˜Ö-

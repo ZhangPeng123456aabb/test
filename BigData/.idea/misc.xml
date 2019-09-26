@@ -2,12 +2,15 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Hadoop_Test1" />
+    <file type="web" url="file://$PROJECT_DIR$/Hbase" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Hadoop_Test/pom.xml" />
         <option value="$PROJECT_DIR$/Hadoop_Test1/pom.xml" />
+        <option value="$PROJECT_DIR$/ZooKeeper_Test/pom.xml" />
+        <option value="$PROJECT_DIR$/Hbase/pom.xml" />
       </list>
     </option>
   </component>

@@ -18,10 +18,10 @@ public class JobRunner {
          */
         System.setProperty("HADOOP_USER_NAME","root");
         Configuration conf = new Configuration();
-        conf.addResource("conf1/core-site.xml");
-        conf.addResource("conf1/hdfs-site.xml");
-        conf.addResource("conf1/mapred-site.xml");
-        conf.addResource("conf1/yarn-site.xml");
+        conf.addResource("conf2/core-site.xml");
+        conf.addResource("conf2/hdfs-site.xml");
+        conf.addResource("conf2/mapred-site.xml");
+        conf.addResource("conf2/yarn-site.xml");
         conf.set(MRJobConfig.JAR,"F:\\study\\IDEA_project\\BigData\\Hadoop_Test\\target\\Hadoop_Test-1.0-SNAPSHOT.jar");
         conf.set("mapreduce.app-submission.cross-platform","true");
         /**
@@ -37,12 +37,12 @@ public class JobRunner {
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
        /* TextInputFormat.setInputPaths(job,new Path("file:///I:\\飞秋文件\\文件包\\feiq\\Recv Files\\wordcount.txt"));*/
-        TextInputFormat.setInputPaths(job,new Path("/log.txt"));
+        TextInputFormat.setInputPaths(job,new Path("/install.log.syslog"));
         /**
          * 注意：此输出路径不能存在
          */
        /* TextOutputFormat.setOutputPath(job,new Path("file:///I:\\飞秋文件\\文件包\\feiq\\Recv Files\\out4"));*/
-        TextOutputFormat.setOutputPath(job,new Path("/baizhi/out10"));
+        TextOutputFormat.setOutputPath(job,new Path("/out2"));
         /**
          * 设置MAP和Reduce处理逻辑
          */

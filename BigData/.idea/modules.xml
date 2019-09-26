@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Hadoop_Test/Hadoop_Test.iml" filepath="$PROJECT_DIR$/Hadoop_Test/Hadoop_Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hadoop_Test1/Hadoop_Test1.iml" filepath="$PROJECT_DIR$/Hadoop_Test1/Hadoop_Test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hbase/Hbase.iml" filepath="$PROJECT_DIR$/Hbase/Hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZooKeeper_Test/ZooKeeper_Test.iml" filepath="$PROJECT_DIR$/ZooKeeper_Test/ZooKeeper_Test.iml" />
     </modules>
   </component>
 </project>
