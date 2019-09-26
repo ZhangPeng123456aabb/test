@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+	
+<mapper namespace="com.baizhi.dao.BookDao">
+	<resultMap type="Book" id="BookResultMap">
+		<result property="BookId" column="book_id"/>
+		<result property="BookName" column="book_name"/>
+		<result property="Author" column="author"/>
+		<result property="Press" column="press"/>
+		<result property="date" column="up_date"/>
+		<result property="BookPrice" column="book_price"/>
+		<result property="DangPrice" column="dang_price"/>
+		<result property="BookImg" column="book_img"/>
+		<result property="CategoryId" column="category_id"/>
+		<result property="Describe" column="describe"/>
+		<result property="BookSale" column="book_sale"/>
+		<association property="category" javaType="Category">
+				 <id property="category_id" column="id"/>
+			     <result property="category_name" column="name"/>
+			     <result property="count" column="cou"/>
+			     <result property="parent_id" column="ParentId"/>
+		</association>
+	</resultMap>
+	<select id="selectSales" resultMap="BookResultMap" >
+			select * from (
+				select book_img,book_name,book_price,dang_price,book_id
+				from book order by book_sale desc) where rownum between 1 and 4	
+	</select>
+	<select id="selectTime" resultMap="BookResultMap">
+			select * from (
+				select book_img,book_name,book_price,dang_price,book_id
+				from book order by book_price desc) where rownum between 1 and 4
+	</select> 
+	<select id="selectCount" resultMap="BookResultMap">
+			select * from (
+				select book_img,book_name,book_price,dang_price,book_id
+				from book order by book_sale desc) where rownum &lt;=#{i}
+	</select> 
+	<select id="selectAll" resultMap="BookResultMap">
+			select * from (
+				select book_img,book_name,book_price,dang_price,book_id
+				from book order by ${order} desc) where rownum &lt;=#{i}
+	</select> 
+	<select id="selectAuthor" parameterType="java.lang.String" resultMap="BookResultMap">
+			select * from (
+				select book_img,book_id,book_name,book_price,dang_price,author,press,up_date,describe
+				from book where author=#{Author}) where rownum between 1 and 2
+	</select>
+	 <select id="countBook"  resultType="java.lang.Integer">
+	 		select count(*) from book b 
+				where category_id in 
+				(select category_id from d_category where parent_id=#{category_id})
+	 </select>
+	 <select id="selectOneBook" resultMap="BookResultMap">
+	 		select * from book where book_id=#{BookId}
+	 </select>
+	   <select id="selectAllBooks" resultMap="BookResultMap">
+	 		 	select d.* from(select b.*, rownum r  from book b 
+					where category_id in 
+					(select category_id from d_category where parent_id=#{id1}))d
+					where r between #{begin} and #{end}
+	 </select>
+	 <select id="selectAllBook" resultMap="BookResultMap">
+	 			select * from (select d.*,rownum r from 
+               (select * from book where category_id=#{id1})d)
+               where r between #{begin} and #{end}
+	 </select>
+	 <select id="countSecondBook" resultType="java.lang.Integer">
+	 			select count(*) from book where category_id=#{category_id}
+	 </select>
+</mapper>

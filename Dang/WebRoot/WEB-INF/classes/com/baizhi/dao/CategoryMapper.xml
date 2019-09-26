@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+	
+<mapper namespace="com.baizhi.dao.CategoryDao">
+<resultMap type="Category" id="CategoryResultMap">
+	<id property="category_id" column="id1"/>
+	<result property="category_name" column="name1"/>
+	<result property="count" column="cou1"/>
+	<collection property="category" ofType="Category">
+		 <id property="category_id" column="id"/>
+	     <result property="category_name" column="name"/>
+	     <result property="count" column="cou"/>
+	     <result property="parent_id" column="ParentId"/>
+	     	<collection property="booklist" ofType="Book">
+				<result property="BookId" column="book_id"/>
+				<result property="BookName" column="book_name"/>
+				<result property="Author" column="author"/>
+				<result property="Press" column="press"/>
+				<result property="date" column="up_date"/>
+				<result property="BookPrice" column="book_price"/>
+				<result property="DangPrice" column="dang_price"/>
+				<result property="BookImg" column="book_img"/>
+				<result property="CategoryId" column="category_id"/>
+				<result property="Describe" column="describe"/>
+				<result property="BookSale" column="book_sale"/>
+				<result property="parent_id" column="parent_id"/>
+	    </collection>
+	</collection>
+</resultMap>
+	<select id="showCategory" resultMap="CategoryResultMap">
+			select t1.category_id id1,t1.category_name name1,t1.count cou1,t2.category_name name,t2.category_id id,t2.count cou,t2.parent_id ParentId
+             from d_category t1 inner join d_category t2 
+             on t1.category_id=t2.parent_id
+	</select>
+	<select id="showBooks" resultMap="CategoryResultMap">
+		select t1.*,t2.* from book t2
+        left join d_category t1 
+        on t1.category_id=t2.category_id
+	</select>
+	<select id="SelectCategories" resultMap="CategoryResultMap" parameterType="java.lang.Integer">
+	  select t1.category_id id1,t1.category_name name1,t1.count cou1,t2.category_name name,t2.category_id id,t2.count cou,t2.parent_id ParentId
+      from d_category t1 inner join d_category t2 on t1.category_id=t2.parent_id
+      where t2.parent_id=#{category_id}
+	</select>
+	<select id="showCategory1" resultMap="CategoryResultMap">
+		 select d.parent_id from d_category d where category_id=#{category_id}   
+	</select>
+	<select id="selectByPage" resultMap="CategoryResultMap">
+			 select * from (select
+			      b.*,rownum r from  
+			      (select t3.category_id as id1, t3.category_name as name1,t2.*,t1.category_id as id,t1.category_name from book t2
+			        left join d_category t1
+			        on t1.category_id=t2.category_id 
+			        left join d_category t3
+			        on t3.parent_id=t1.category_id where t1.category_id=#{id})b) 
+			      where r between #{begin} and #{end}
+	</select>
+	 <select id="selectByPage1" resultType="java.lang.Integer">
+             select t1.category_id
+             from d_category t1 left join d_category t2 
+             on t1.category_id=t2.parent_id
+             where t2.category_id=#{category_id}
+	 </select>
+	 <select id="selectCategory" resultMap="CategoryResultMap">
+	 		 select * from   
+		      (select t1.category_name as name1,t2.category_name as name from d_category t1
+		        left join d_category t2
+		        on t1.category_id=t2.parent_id 
+		        left join book b
+		        on t2.category_id=b.category_id where book_id=#{BookId}) 
+	 </select>
+</mapper>

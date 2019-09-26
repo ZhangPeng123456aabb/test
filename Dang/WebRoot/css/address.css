@@ -1,0 +1,77 @@
+.address-wrap{
+	width: 900px;
+	margin: 0 auto;
+}
+h3{
+	border-bottom: 2px solid #f1f1f1;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.address-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.address-list .selected{
+    border-color: #f40;
+    background-color: #fff0e8;
+    margin: 5px 0 7px;
+    line-height: 32px;
+    box-shadow: 5px 5px 0 #f3f3f3
+}
+.address-list li{
+	position: relative;
+	line-height: 25px;
+    padding-left: 95px;
+    border: 1px solid #fff;
+    width: 806px;
+}
+.addressBox{
+	margin-left: 10px;
+}
+.marker{
+    font-family: tp-buy-font;
+    font-style: normal;
+    width: 15px;
+    height: 25px;
+    color: #f40;
+    font-size: 22px;
+    position: absolute;
+    top: 1px;
+    left: 6px;
+}
+.marker-tip{
+	position: absolute;
+    top: 0;
+    left: 30px;
+    color: #f40;
+    font-weight: 700;
+}
+.addressInfo{
+	display: inline-block;
+}
+.address-list li label{
+    color: #3c3c3c;
+	vertical-align: baseline;
+}
+label{
+    cursor: default;
+}
+.address-list li label input{
+    position: absolute;
+    top: 6px;
+    left: 75px;
+}
+.address-list li label em{
+    color: grey;
+	font-size: 14px;
+	font-weight: 700;
+}
+.user-address{
+	font-size: 14px;
+	font-weight: 700;
+	word-wrap: break-word;
+    word-break: break-all;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+	
+<mapper namespace="com.baizhi.dao.UserDao">
+	<select id="selectOne" parameterType="User" resultType="User">
+		select user_id as id,user_email as email, user_password as password,nick_name as nickname,state from d_user where user_email = #{email} and user_password = #{password}
+	</select>
+	<insert id="insert" parameterType="User">
+		insert into d_user values(d_user_seq.nextval,#{email},#{password},#{nickname},0)
+	</insert>
+	<update id="updateState" parameterType="User">
+			update d_user 
+			<set>
+				<if test="state==0">state=1</if>
+				<if test="state==1">state=0</if>
+			</set>  
+			where user_email=#{email} and user_password=#{password}
+	</update>
+</mapper>

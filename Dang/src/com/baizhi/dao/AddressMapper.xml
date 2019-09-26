@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.AddressDao">
+<resultMap type="Address" id="AddressResultMap">
+	<id property="id" column="address_id"/>
+	<result property="receive_name" column="receive_name"/>
+	<result property="address" column="detail_address"/>
+	<result property="telphone" column="telphone"/>
+	<result property="UserId" column="user_id"/>
+	<result property="status" column="status"/>
+	<result property="state" column="state"/>
+</resultMap>
+	<select id="showAllAddress" resultMap="AddressResultMap">
+			select * from address where user_id=#{UserId}
+	</select>
+	<select id="selectOneAddress" resultMap="AddressResultMap">
+			select * from address where address_id=#{id}
+	</select>
+	<insert id="insertAddress" parameterType="Address">
+			insert into address values(address_seq.nextval,#{receive_name},#{address},#{telphone},#{userId},0,1)
+	</insert>
+	<delete id="deleteAddress" parameterType="java.lang.Integer">
+			delete from address where address_id=#{id}
+	</delete>
+	<update id="updatestatus">
+			update address set status=1 where address_id=#{id}
+	</update>
+	<update id="updateDefault">
+			update address set status=0 where user_id=#{UserId} 
+	</update>
+</mapper>

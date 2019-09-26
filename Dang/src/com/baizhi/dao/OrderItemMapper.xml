@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.baizhi.dao.OrderItemDao">
+		<resultMap type="OrderItem" id="OrderItemResultMap">
+				<id property="ItemId" column="item_id"/>
+				<result property="DangPrice" column="dang_price"/>
+				<result property="Count" column="count"/>
+				<result property="BookId" column="book_id"/>
+				<result property="OrderId1" column="order_id"/>
+		</resultMap>
+		<insert id="insertOrderItem">
+				insert into t_orderitem values(t_orderitem_seq.nextval,#{DangPrice},#{Count},#{BookId},#{OrderId1})
+		</insert>
+</mapper>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="father" extends="struts-default">
+			<interceptors>
+					<interceptor name="myInterceptor" class="com.baizhi.action.MyInterceptor"></interceptor>
+					<interceptor-stack name="StackInterceptor">
+						<interceptor-ref name="myInterceptor"></interceptor-ref>
+						<interceptor-ref name="defaultStack"></interceptor-ref>	
+					</interceptor-stack>
+			</interceptors>
+			
+	</package>
+	<package name="user" extends="struts-default" namespace="/user" >
+		<action name="login" class="com.baizhi.action.UserAction" method="login">
+			<result name="loginSuccess" type="chain">
+				<param name="namespace">/category</param>
+				<param name="actionName">c_showCategory</param>
+			</result>
+			<result name="loginFail">/user/login_form.jsp</result>
+		</action>
+		<action name="register" class="com.baizhi.action.UserAction" method="register">
+			<result name="registerSuccess">/user/verify_form.jsp</result>
+			<result name="registerFail">/user/register_form.jsp</result>
+		</action>
+		<action name="Exit" class="com.baizhi.action.UserAction" method="Exit">
+			<result name="ExitSuccess">/user/login_form.jsp</result>
+		</action>
+		<action name="verify" class="com.baizhi.action.UserAction" method="verify">
+			<result name="vectory">/user/register_ok.jsp</result>
+			<result name="NoVectory">/user/verify_form.jsp</result>
+		</action>
+	</package>
+	
+	<package name="book" extends="struts-default" namespace="/book">
+		<action name="b_*" class="com.baizhi.action.BookAction" method="{1}">
+		    <result name="showSalesSuccess" type="dispatcher">/main/main.jsp</result>
+		     <result name="selectOneSuccess" type="dispatcher">/main/product.jsp</result>
+		</action>
+	</package>
+	<package name="category" extends="struts-default" namespace="/category">
+			<action name="c_*" class="com.baizhi.action.CategoryAction" method="{1}">
+					<result name="showSuccess" type="chain">
+							<param name="namespace">/book</param>
+				            <param name="actionName">b_showAll</param>
+					</result>
+					<result name="showPageSuccess" type="dispatcher">/main/book_list.jsp</result>
+					<result name="showCategoryBooksSuccess" type="chain">c_TestshowPageCategory</result>
+			</action>
+	</package>
+	
+	<package name="book1" extends="struts-default" namespace="/book1">
+			<action name="b1_*" class="com.baizhi.action.SearchBookAction" method="{1}">
+					<result name="SearchSuccess" type="dispatcher">/main/book_search.jsp</result>
+					<result name="SearchSuccess1" type="dispatcher">/main/book_search1.jsp</result>
+			</action>
+	</package>
+	
+	<package name="cart" extends="struts-default" namespace="/cart">
+			<action name="addCart" class="com.baizhi.action.CartAction" method="addCart">
+			</action>
+			<action name="updateCart" class="com.baizhi.action.CartAction" method="updateCart">
+					<result name="success" type="redirect">/cart/cart_list.jsp</result>
+			</action>
+			<action name="deleteCart" class="com.baizhi.action.CartAction" method="deleteCart">
+					<result name="DeleteSuccess" >/cart/cart_list.jsp</result>
+			</action>
+			<action name="recoverCart" class="com.baizhi.action.CartAction" method="recoverCart">
+					<result name="RecoverSuccess" type="redirect">/cart/cart_list.jsp</result>
+			</action>
+	</package>
+	
+	<package name="address" extends="father" namespace="/address">
+			<action name="a_*" class="com.baizhi.action.AddressAction" method="{1}">
+					<interceptor-ref name="StackInterceptor"></interceptor-ref>
+					<result name="selectSuccess">/address/my_address.jsp</result>
+					<result name="deleteSuccess" type="redirectAction">a_selectAllAddress</result>
+					<result name="showFail">/user/login_form.jsp</result>
+					<result name="insertSuccess">/address/add_address.jsp</result>
+					<result name="updateSuccess" type="redirectAction">a_selectAllAddress</result>
+					<result name="selectSuccess1">/order/address_form.jsp</result>
+			</action>
+	</package>
+	<package name="order" extends="struts-default" namespace="/order">
+			<action name="o_*" class="com.baizhi.action.OrderAction" method="{1}">
+					<result name="insertOrderSuccess" type="redirectAction">o_showOrders</result>
+					<result name="showOrdersSuccess">/order/order_info.jsp</result>
+					<result name="updateOrderStatusSuccess" type="chain">
+						<param name="namespace">/orderitem</param>
+						<param name="actionName">showOrderItem</param>
+					</result>
+			</action>
+	</package>
+	<package name="orderitem" extends="struts-default" namespace="/orderitem">
+			<action name="showOrderItem" class="com.baizhi.action.OrderItemAction" method="showOrderItem">
+					<result name="showSuccess">/order/my_order.jsp</result>
+			</action>
+	</package>
+	<!--支付    -->
+	<package name="p8" extends="struts-default" namespace="/hh">
+	     <!-- 添加订单项 -->
+		<action name="pay" class="com.baizhi.action.PayAction" method="pay">
+			<result name="success" type="dispatcher">/pay/pay_ok.jsp</result>
+			<result name="input" type="dispatcher">/pay/pay_password.jsp</result>
+		</action>
+	</package>
+	<package name="comment" extends="struts-default" namespace="/comment">
+	    <action name="com_*" class="com.baizhi.action.CommentAction" method="{1}">
+	    		<result name="showCommentSuccess">/main/product.jsp</result>
+	    		<result name="addCommentSuccess" type="chain">com_showComment</result>
+	    </action>
+	</package>
+</struts>

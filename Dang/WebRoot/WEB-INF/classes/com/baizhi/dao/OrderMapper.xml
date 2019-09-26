@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.baizhi.dao.OrderDao">
+		<resultMap type="Order" id="OrderResultMap">
+				<id property="OrderId1" column="id"/>
+				<result property="OrderTime" column="time"/>
+				<result property="TotalPrice" column="price"/>
+				<result property="state" column="state"/>
+				<result property="UserId" column="user_id"/>
+				<result property="AddressId" column="id1"/>
+				<association property="user" javaType="User">
+						<id property="id" column="User_id"/>
+						<result property="email" column="user_email"/>
+						<result property="nickname" column="nick_name"/>
+						<result property="password" column="user_password"/>
+						<result property="state" column="state"/>
+				</association>
+				<collection property="address" ofType="Address">
+						<id property="id" column="address_id"/>
+						<result property="receive_name" column="receive_name"/>
+						<result property="address" column="detail_address"/>
+						<result property="telphone" column="telphone"/>
+						<result property="UserId" column="user_id"/>
+						<result property="status" column="status"/>
+						<result property="state" column="state"/>
+				</collection>
+				<collection property="itemList" ofType="OrderItem">
+						<id property="ItemId" column="item_id"/>
+						<result property="DangPrice" column="dang_price"/>
+						<result property="Count" column="count"/>
+						<result property="BookId" column="book_id"/>
+						<result property="OrderId1" column="id2"/>
+						<association property="book" javaType="Book">
+							    <id property="BookId" column="book_id"/>
+								<result property="BookName" column="book_name"/>
+								<result property="Author" column="author"/>
+								<result property="Press" column="press"/>
+								<result property="date" column="up_date"/>
+								<result property="BookPrice" column="book_price"/>
+								<result property="DangPrice" column="dang_price"/>
+								<result property="BookImg" column="book_img"/>
+								<result property="CategoryId" column="category_id"/>
+								<result property="Describe" column="describe"/>
+								<result property="BookSale" column="book_sale"/>
+				       </association>
+				</collection>
+		</resultMap>
+		<insert id="InsertOrder" parameterType="Order">
+				insert into t_order values(#{OrderId1},#{OrderTime},#{TotalPrice},0,#{UserId},#{AddressId})
+		</insert>
+		<select id="SelectOrders" resultMap="OrderResultMap">
+				select order_id id2,order_time time,totalprice price,state state,address_id id1 
+				from t_order 
+				where user_id =#{UserId}
+		</select>
+		<select id="showOrderItem" resultMap="OrderResultMap">
+				select b.book_img,t2.order_id id,b.book_name,b.describe,t1.order_id id2,t1.dang_price,t1.count,t2.order_time time,t2.state,t2.totalprice price 
+					from t_orderitem t1 
+					left join book b
+					on t1.book_id=b.book_id
+					left join t_order t2
+					on t1.order_id=t2.order_id
+					where t2.user_id=#{UserId}
+		</select>
+		<update id="updateOrderState">
+				update t_order
+				<set>
+					<if test="state==1">
+						state=0,
+					</if>
+					<if test="state==0">
+					   state=1
+					</if>
+				</set>
+				where order_id=#{OrderId1} 
+		</update>
+</mapper>

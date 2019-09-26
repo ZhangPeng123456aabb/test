@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.baizhi.dao.CommentDao">
+	<resultMap type="Comment" id="CommentResultMap">
+	    <id property="CommentId" column="comment_id1"/>
+	    <result property="CommentContent" column="content1"/>
+	    <result property="CommentDate" column="comment_date"/>
+	    <result property="CommentFloor" column="comment_floor"/>
+	    <result property="ParentId" column="parent_id"/>
+	    <result property="BookId" column="book_id"/>
+	    <result property="UserId" column="user_id"/>
+	    <result property="status" column="status"/>
+	    <association property="book" javaType="Book">
+	            <result property="BookId" column="book_id"/>
+				<result property="BookName" column="book_name"/>
+				<result property="Author" column="author"/>
+				<result property="Press" column="press"/>
+				<result property="date" column="up_date"/>
+				<result property="BookPrice" column="book_price"/>
+				<result property="DangPrice" column="dang_price"/>
+				<result property="BookImg" column="book_img"/>
+				<result property="CategoryId" column="category_id"/>
+				<result property="Describe" column="describe"/>
+				<result property="BookSale" column="book_sale"/>
+	    </association>
+	    <collection property="userList" ofType="User">
+	            <id property="id" column="user_id"/>
+	            <result property="email" column="user_email"/>
+	            <result property="nickname" column="nick_name"/>
+	            <result property="password" column="user_password"/>
+	            <result property="state" column="state"/>
+	    </collection>
+	    <collection property="commentList" ofType="Comment">
+	    			<id property="CommentId" column="comment_id2"/>
+					 <result property="CommentContent" column="content2"/>
+					 <result property="CommentDate" column="comment_date"/>
+					 <result property="CommentFloor" column="comment_floor"/>
+					 <result property="ParentId" column="parent_id"/>
+					 <result property="BookId" column="book_id"/>
+					 <result property="UserId" column="user_id"/>
+					 <result property="status" column="status1"/>
+	    </collection>
+	</resultMap>
+	<insert id="insertComment">
+	       insert into t_comment values(seq_comment.nextval,#{CommentContent},sysdate,#{CommentFloor},null,#{BookId},#{UserId},1)
+	</insert>
+	<select id="selectComment" resultMap="CommentResultMap">
+	       select b.*,t1.comment_content content1,t1.comment_date,t1.comment_floor,t2.comment_content content2,t1.comment_date,t2.comment_floor
+	          from t_comment t1
+				inner join t_comment t2
+				on t1.comment_id = t2.parent_id
+				left join book b
+				on t1.book_id = b.book_id
+				left join  d_user u
+				on t1.user_id = u.user_id
+				where t1.book_id=#{BookId}
+	</select>
+</mapper>
