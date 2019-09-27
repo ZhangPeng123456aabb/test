@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:48:18 CST 2019
+findbugs-annotations-1.3.9-1.jar>alimaven=
+findbugs-annotations-1.3.9-1.pom>nexus-aliyun=
+findbugs-annotations-1.3.9-1.jar>nexus-aliyun=
+findbugs-annotations-1.3.9-1.pom>alimaven=

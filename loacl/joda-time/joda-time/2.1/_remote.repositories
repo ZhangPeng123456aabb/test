@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 14:45:03 CST 2019
+joda-time-2.1.pom>nexus-aliyun=
+joda-time-2.1.jar>nexus-aliyun=
+joda-time-2.1-sources.jar>nexus-aliyun=

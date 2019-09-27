@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:40:14 CST 2019
+jamon-runtime-2.4.1-sources.jar>nexus-aliyun=
+jamon-runtime-2.4.1-javadoc.jar>nexus-aliyun=
+jamon-runtime-2.4.1.pom>nexus-aliyun=
+jamon-runtime-2.4.1.jar>nexus-aliyun=

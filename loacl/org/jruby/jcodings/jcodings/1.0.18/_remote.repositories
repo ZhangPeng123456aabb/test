@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:41:00 CST 2019
+jcodings-1.0.18.jar>nexus-aliyun=
+jcodings-1.0.18-sources.jar>nexus-aliyun=
+jcodings-1.0.18-javadoc.jar>nexus-aliyun=
+jcodings-1.0.18.pom>nexus-aliyun=

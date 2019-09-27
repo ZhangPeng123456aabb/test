@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:46:03 CST 2019
+snakeyaml-1.17.pom>alimaven=
+snakeyaml-1.17.pom>nexus-aliyun=
+snakeyaml-1.17.jar>nexus-aliyun=

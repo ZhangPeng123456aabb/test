@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:48:10 CST 2019
+maven-compiler-plugin-3.7.0.jar>alimaven=
+maven-compiler-plugin-3.7.0.jar>nexus-aliyun=
+maven-compiler-plugin-3.7.0.pom>alimaven=
+maven-compiler-plugin-3.7.0.pom>nexus-aliyun=

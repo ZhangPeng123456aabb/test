@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:18 CST 2018
+gson-2.8.0.pom>oss-snapshots-repo=
+gson-2.8.0.pom>nexus-aliyun=
+gson-2.8.0.jar>nexus-aliyun=

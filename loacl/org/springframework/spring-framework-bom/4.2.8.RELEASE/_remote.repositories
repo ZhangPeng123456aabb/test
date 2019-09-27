@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:10 CST 2018
+spring-framework-bom-4.2.8.RELEASE.pom>oss-snapshots-repo=
+spring-framework-bom-4.2.8.RELEASE.pom>nexus-aliyun=

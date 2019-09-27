@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+api-util-1.0.0-M20.pom>nexus-aliyun=
+api-util-1.0.0-M20.jar>nexus-aliyun=
+api-util-1.0.0-M20.jar>alimaven=
+api-util-1.0.0-M20.pom>alimaven=
+api-util-1.0.0-M20-sources.jar>nexus-aliyun=
+api-util-1.0.0-M20-javadoc.jar>nexus-aliyun=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:47:45 CST 2019
+logback-core-1.2.3.pom>nexus-aliyun=
+logback-core-1.2.3.jar>nexus-aliyun=
+logback-core-1.2.3.jar>alimaven=
+logback-core-1.2.3.pom>alimaven=

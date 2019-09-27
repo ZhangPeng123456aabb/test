@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+guice-servlet-3.0.jar>alimaven=
+guice-servlet-3.0.jar>nexus-aliyun=
+guice-servlet-3.0.pom>alimaven=
+guice-servlet-3.0-sources.jar>nexus-aliyun=
+guice-servlet-3.0.pom>nexus-aliyun=

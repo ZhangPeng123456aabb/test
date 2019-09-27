@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:51:14 CST 2019
+parboiled-core-1.1.4.pom>nexus-aliyun=
+parboiled-core-1.1.4.jar>alimaven=
+parboiled-core-1.1.4.jar>nexus-aliyun=
+parboiled-core-1.1.4.pom>alimaven=

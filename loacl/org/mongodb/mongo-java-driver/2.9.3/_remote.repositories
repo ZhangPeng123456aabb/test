@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:18 CST 2018
+mongo-java-driver-2.9.3.pom>oss-snapshots-repo=
+mongo-java-driver-2.9.3.pom>nexus-aliyun=
+mongo-java-driver-2.9.3.jar>nexus-aliyun=

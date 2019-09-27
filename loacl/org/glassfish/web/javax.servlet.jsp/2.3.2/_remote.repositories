@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:40:43 CST 2019
+javax.servlet.jsp-2.3.2.jar>nexus-aliyun=
+javax.servlet.jsp-2.3.2-javadoc.jar>nexus-aliyun=
+javax.servlet.jsp-2.3.2-sources.jar>nexus-aliyun=
+javax.servlet.jsp-2.3.2.pom>nexus-aliyun=

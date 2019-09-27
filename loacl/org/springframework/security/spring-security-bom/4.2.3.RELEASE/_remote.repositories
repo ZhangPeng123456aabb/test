@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:44:11 CST 2019
+spring-security-bom-4.2.3.RELEASE.pom>oss-snapshots-repo=
+spring-security-bom-4.2.3.RELEASE.pom>nexus-aliyun=
+spring-security-bom-4.2.3.RELEASE.pom>alimaven=

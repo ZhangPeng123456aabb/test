@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:39:04 CST 2019
+hbase-mapreduce-2.1.0.pom>nexus-aliyun=
+hbase-mapreduce-2.1.0-sources.jar>nexus-aliyun=
+hbase-mapreduce-2.1.0-javadoc.jar>nexus-aliyun=
+hbase-mapreduce-2.1.0.jar>nexus-aliyun=

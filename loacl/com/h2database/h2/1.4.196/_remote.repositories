@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:05 CST 2018
+h2-1.4.196.pom>nexus-aliyun=
+h2-1.4.196.pom>oss-snapshots-repo=
+h2-1.4.196.jar>nexus-aliyun=

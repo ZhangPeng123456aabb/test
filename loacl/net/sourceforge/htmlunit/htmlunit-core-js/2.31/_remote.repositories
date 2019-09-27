@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:15 CST 2018
+htmlunit-core-js-2.31.pom>nexus-aliyun=
+htmlunit-core-js-2.31.jar>nexus-aliyun=
+htmlunit-core-js-2.31.pom>oss-snapshots-repo=

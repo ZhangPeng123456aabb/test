@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:38:10 CST 2019
+disruptor-3.3.6-sources.jar>nexus-aliyun=
+disruptor-3.3.6-javadoc.jar>nexus-aliyun=
+disruptor-3.3.6.pom>nexus-aliyun=
+disruptor-3.3.6.jar>nexus-aliyun=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:35:54 CST 2019
+jackson-core-2.9.2.pom>nexus-aliyun=
+jackson-core-2.9.2.jar>nexus-aliyun=
+jackson-core-2.9.2-sources.jar>nexus-aliyun=
+jackson-core-2.9.2-javadoc.jar>nexus-aliyun=

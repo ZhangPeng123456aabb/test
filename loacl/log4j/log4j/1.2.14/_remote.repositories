@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 14:50:20 CST 2019
+log4j-1.2.14.jar>nexus-aliyun=
+log4j-1.2.14-sources.jar>nexus-aliyun=
+log4j-1.2.14.pom>nexus-aliyun=

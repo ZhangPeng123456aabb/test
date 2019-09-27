@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 14:50:18 CST 2019
+servlet-api-2.5-20110124.pom>nexus-aliyun=
+servlet-api-2.5-20110124.jar>nexus-aliyun=
+servlet-api-2.5-20110124-sources.jar>nexus-aliyun=

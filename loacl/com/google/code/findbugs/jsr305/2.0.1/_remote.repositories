@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:51:14 CST 2019
+jsr305-2.0.1.jar>alimaven=
+jsr305-2.0.1.pom>alimaven=
+jsr305-2.0.1.pom>nexus-aliyun=
+jsr305-2.0.1.jar>nexus-aliyun=

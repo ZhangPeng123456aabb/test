@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:38:06 CST 2019
+joni-2.1.11-javadoc.jar>nexus-aliyun=
+joni-2.1.11.pom>nexus-aliyun=
+joni-2.1.11.jar>nexus-aliyun=
+joni-2.1.11-sources.jar>nexus-aliyun=

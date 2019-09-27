@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:06 CST 2018
+druid-1.0.19.pom>nexus-aliyun=
+druid-1.0.19.jar>nexus-aliyun=
+druid-1.0.19.pom>oss-snapshots-repo=

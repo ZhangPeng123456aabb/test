@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Mar 15 17:01:26 CST 2019
+cglib-2.2.2.jar>nexus-aliyun=
+cglib-2.2.2.pom>nexus-aliyun=

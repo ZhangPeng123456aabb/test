@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 14:45:04 CST 2019
+flume-ng-configuration-1.7.0-sources.jar>nexus-aliyun=
+flume-ng-configuration-1.7.0.pom>nexus-aliyun=
+flume-ng-configuration-1.7.0.jar>nexus-aliyun=

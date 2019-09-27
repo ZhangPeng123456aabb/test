@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+jackson-mapper-asl-1.8.8.jar>alimaven=
+jackson-mapper-asl-1.8.8.pom>alimaven=
+jackson-mapper-asl-1.8.8.pom>nexus-aliyun=
+jackson-mapper-asl-1.8.8.jar>nexus-aliyun=
+jackson-mapper-asl-1.8.8-sources.jar>nexus-aliyun=

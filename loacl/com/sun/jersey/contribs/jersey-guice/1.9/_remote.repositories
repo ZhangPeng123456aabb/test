@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+jersey-guice-1.9.pom>nexus-aliyun=
+jersey-guice-1.9.jar>nexus-aliyun=
+jersey-guice-1.9-sources.jar>nexus-aliyun=
+jersey-guice-1.9.jar>alimaven=
+jersey-guice-1.9.pom>alimaven=

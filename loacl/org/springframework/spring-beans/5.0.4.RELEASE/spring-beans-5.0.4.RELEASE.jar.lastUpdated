@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Feb 23 20:30:54 CST 2019
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact org.springframework\:spring-beans\:jar\:5.0.4.RELEASE from/to nexus-aliyun (http\://maven.aliyun.com/nexus/content/groups/public)\: D\:\\DevelopEnvironment\\Maven\\loacl\\org\\springframework\\spring-beans\\5.0.4.RELEASE\\spring-beans-5.0.4.RELEASE.jar.part.lock (\u62D2\u7EDD\u8BBF\u95EE\u3002)
+@default-nexus-aliyun-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1550925054509

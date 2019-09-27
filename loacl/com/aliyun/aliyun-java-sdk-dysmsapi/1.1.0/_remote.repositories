@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:09 CST 2018
+aliyun-java-sdk-dysmsapi-1.1.0.pom>nexus-aliyun=
+aliyun-java-sdk-dysmsapi-1.1.0.jar>nexus-aliyun=
+aliyun-java-sdk-dysmsapi-1.1.0.pom>oss-snapshots-repo=

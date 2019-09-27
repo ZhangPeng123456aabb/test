@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:41:17 CST 2019
+javassist-3.20.0-GA.pom>nexus-aliyun=
+javassist-3.20.0-GA-javadoc.jar>nexus-aliyun=
+javassist-3.20.0-GA.jar>nexus-aliyun=
+javassist-3.20.0-GA-sources.jar>nexus-aliyun=

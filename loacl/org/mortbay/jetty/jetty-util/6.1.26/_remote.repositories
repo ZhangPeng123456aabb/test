@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+jetty-util-6.1.26-javadoc.jar>nexus-aliyun=
+jetty-util-6.1.26.jar>alimaven=
+jetty-util-6.1.26.pom>alimaven=
+jetty-util-6.1.26.pom>nexus-aliyun=
+jetty-util-6.1.26-sources.jar>nexus-aliyun=
+jetty-util-6.1.26.jar>nexus-aliyun=

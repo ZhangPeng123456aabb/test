@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:32:36 CST 2019
+javax.ws.rs-api-2.0.1-javadoc.jar>nexus-aliyun=
+javax.ws.rs-api-2.0.1.pom>nexus-aliyun=
+javax.ws.rs-api-2.0.1.jar>nexus-aliyun=
+javax.ws.rs-api-2.0.1-sources.jar>nexus-aliyun=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:03 CST 2018
+spring-boot-starter-jdbc-1.5.7.RELEASE.pom>oss-snapshots-repo=
+spring-boot-starter-jdbc-1.5.7.RELEASE.pom>nexus-aliyun=
+spring-boot-starter-jdbc-1.5.7.RELEASE.jar>nexus-aliyun=

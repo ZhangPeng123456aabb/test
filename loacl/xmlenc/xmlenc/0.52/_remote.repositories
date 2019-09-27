@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+xmlenc-0.52.pom>nexus-aliyun=
+xmlenc-0.52.jar>alimaven=
+xmlenc-0.52.jar>nexus-aliyun=
+xmlenc-0.52.pom>alimaven=

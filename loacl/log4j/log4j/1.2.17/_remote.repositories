@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+log4j-1.2.17.jar>alimaven=
+log4j-1.2.17.pom>nexus-aliyun=
+log4j-1.2.17.pom>alimaven=
+log4j-1.2.17-sources.jar>nexus-aliyun=
+log4j-1.2.17-javadoc.jar>nexus-aliyun=
+log4j-1.2.17.pom>oss-snapshots-repo=
+log4j-1.2.17.jar>nexus-aliyun=

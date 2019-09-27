@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:35:26 CST 2019
+javax.annotation-api-1.2.pom>nexus-aliyun=
+javax.annotation-api-1.2.jar>nexus-aliyun=
+javax.annotation-api-1.2-sources.jar>nexus-aliyun=
+javax.annotation-api-1.2-javadoc.jar>nexus-aliyun=

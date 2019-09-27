@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 14:43:41 CST 2019
+hbase-shaded-protobuf-2.1.0-sources.jar>nexus-aliyun=
+hbase-shaded-protobuf-2.1.0.pom>nexus-aliyun=
+hbase-shaded-protobuf-2.1.0.jar>nexus-aliyun=

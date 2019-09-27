@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:14 CST 2018
+xalan-2.7.2.pom>nexus-aliyun=
+xalan-2.7.2.jar>nexus-aliyun=
+xalan-2.7.2.pom>oss-snapshots-repo=

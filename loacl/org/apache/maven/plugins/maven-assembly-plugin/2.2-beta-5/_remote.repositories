@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:24:31 CST 2019
+maven-assembly-plugin-2.2-beta-5.jar>nexus-aliyun=
+maven-assembly-plugin-2.2-beta-5.pom>nexus-aliyun=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:00 CST 2018
+mybatis-spring-boot-starter-1.0.0.pom>nexus-aliyun=
+mybatis-spring-boot-starter-1.0.0.jar>nexus-aliyun=
+mybatis-spring-boot-starter-1.0.0.pom>oss-snapshots-repo=

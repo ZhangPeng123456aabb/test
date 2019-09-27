@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:49:22 CST 2019
+maven-repository-metadata-2.0.6.jar>nexus-aliyun=
+maven-repository-metadata-2.0.6.jar>alimaven=
+maven-repository-metadata-2.0.6.pom>alimaven=
+maven-repository-metadata-2.0.6.pom>nexus-aliyun=

@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+leveldbjni-all-1.8.pom>nexus-aliyun=
+leveldbjni-all-1.8.jar>nexus-aliyun=
+leveldbjni-all-1.8-sources.jar>nexus-aliyun=
+leveldbjni-all-1.8-javadoc.jar>nexus-aliyun=
+leveldbjni-all-1.8.jar>alimaven=
+leveldbjni-all-1.8.pom>alimaven=

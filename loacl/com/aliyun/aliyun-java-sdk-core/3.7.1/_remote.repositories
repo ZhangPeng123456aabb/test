@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 20 00:58:08 CST 2018
+aliyun-java-sdk-core-3.7.1.pom>oss-snapshots-repo=
+aliyun-java-sdk-core-3.7.1.jar>nexus-aliyun=
+aliyun-java-sdk-core-3.7.1.pom>nexus-aliyun=

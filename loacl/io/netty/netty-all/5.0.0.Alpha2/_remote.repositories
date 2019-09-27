@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Mar 06 16:46:53 CST 2019
+netty-all-5.0.0.Alpha2-sources.jar>nexus-aliyun=
+netty-all-5.0.0.Alpha2.pom>nexus-aliyun=
+netty-all-5.0.0.Alpha2.jar>nexus-aliyun=

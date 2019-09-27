@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+stax-api-1.0-2-sources.jar>nexus-aliyun=
+stax-api-1.0-2.jar>alimaven=
+stax-api-1.0-2.pom>alimaven=
+stax-api-1.0-2.pom>nexus-aliyun=
+stax-api-1.0-2.jar>nexus-aliyun=

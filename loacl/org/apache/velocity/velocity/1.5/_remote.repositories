@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:51:14 CST 2019
+velocity-1.5.pom>nexus-aliyun=
+velocity-1.5.jar>alimaven=
+velocity-1.5.jar>nexus-aliyun=
+velocity-1.5.pom>alimaven=

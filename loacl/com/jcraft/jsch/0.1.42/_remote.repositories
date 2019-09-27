@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+jsch-0.1.42.pom>nexus-aliyun=
+jsch-0.1.42.jar>alimaven=
+jsch-0.1.42.jar>nexus-aliyun=
+jsch-0.1.42.pom>alimaven=

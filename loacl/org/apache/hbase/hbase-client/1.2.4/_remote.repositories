@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:48:18 CST 2019
+hbase-client-1.2.4.pom>nexus-aliyun=
+hbase-client-1.2.4.jar>nexus-aliyun=
+hbase-client-1.2.4.jar>alimaven=
+hbase-client-1.2.4.pom>alimaven=

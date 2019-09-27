@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+jettison-1.1.jar>nexus-aliyun=
+jettison-1.1.jar>alimaven=
+jettison-1.1.pom>alimaven=
+jettison-1.1-sources.jar>nexus-aliyun=
+jettison-1.1.pom>nexus-aliyun=
+jettison-1.1-javadoc.jar>nexus-aliyun=

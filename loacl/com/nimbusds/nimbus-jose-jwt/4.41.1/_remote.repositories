@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:42:16 CST 2019
+nimbus-jose-jwt-4.41.1-sources.jar>nexus-aliyun=
+nimbus-jose-jwt-4.41.1-javadoc.jar>nexus-aliyun=
+nimbus-jose-jwt-4.41.1.pom>nexus-aliyun=
+nimbus-jose-jwt-4.41.1.jar>nexus-aliyun=

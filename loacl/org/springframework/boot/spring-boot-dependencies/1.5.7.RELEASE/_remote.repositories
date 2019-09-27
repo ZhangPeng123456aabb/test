@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:44:10 CST 2019
+spring-boot-dependencies-1.5.7.RELEASE.pom>alimaven=
+spring-boot-dependencies-1.5.7.RELEASE.pom>oss-snapshots-repo=
+spring-boot-dependencies-1.5.7.RELEASE.pom>nexus-aliyun=

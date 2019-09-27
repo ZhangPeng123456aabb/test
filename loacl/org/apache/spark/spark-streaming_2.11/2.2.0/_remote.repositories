@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 17 12:44:26 CST 2018
+spark-streaming_2.11-2.2.0.pom>nexus-aliyun=
+spark-streaming_2.11-2.2.0.jar>nexus-aliyun=

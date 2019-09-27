@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jan 03 21:26:30 CST 2019
+pi4j-core-1.1-sources.jar>nexus-aliyun=
+pi4j-core-1.1.jar>nexus-aliyun=
+pi4j-core-1.1.pom>nexus-aliyun=

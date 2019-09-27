@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 14:45:55 CST 2019
+jersey-guava-2.25.1-sources.jar>nexus-aliyun=
+jersey-guava-2.25.1.pom>nexus-aliyun=
+jersey-guava-2.25.1.jar>nexus-aliyun=

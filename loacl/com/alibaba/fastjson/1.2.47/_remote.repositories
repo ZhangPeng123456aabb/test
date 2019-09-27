@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 26 15:32:54 CST 2019
+fastjson-1.2.47.pom>nexus-aliyun=
+fastjson-1.2.47.jar>nexus-aliyun=
+fastjson-1.2.47-sources.jar>nexus-aliyun=
+fastjson-1.2.47-javadoc.jar>nexus-aliyun=
+fastjson-1.2.47.pom>oss-snapshots-repo=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:45:02 CST 2019
+aopalliance-1.0-sources.jar>nexus-aliyun=
+aopalliance-1.0.pom>nexus-aliyun=
+aopalliance-1.0.jar>nexus-aliyun=
+aopalliance-1.0.jar>alimaven=
+aopalliance-1.0.pom>alimaven=

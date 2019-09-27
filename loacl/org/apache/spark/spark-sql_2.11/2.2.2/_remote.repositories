@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Dec 07 16:06:29 CST 2018
+spark-sql_2.11-2.2.2.pom>nexus-aliyun=
+spark-sql_2.11-2.2.2.jar>nexus-aliyun=
+spark-sql_2.11-2.2.2-sources.jar>nexus-aliyun=

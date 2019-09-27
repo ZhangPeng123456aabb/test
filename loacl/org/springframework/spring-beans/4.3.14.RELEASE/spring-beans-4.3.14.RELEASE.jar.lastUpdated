@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 26 19:48:08 CST 2019
+http\://repo.spring.io/ext-release-local/.error=Could not transfer artifact org.springframework\:spring-beans\:jar\:4.3.14.RELEASE from/to spring-ext (http\://repo.spring.io/ext-release-local/)\: Connect to repo.spring.io\:80 [repo.spring.io/35.241.58.96] failed\: Connection timed out\: connect
+@default-spring-ext-http\://repo.spring.io/ext-release-local/.lastUpdated=1569498486759
+http\://repo.spring.io/milestone/.lastUpdated=1569498488691
