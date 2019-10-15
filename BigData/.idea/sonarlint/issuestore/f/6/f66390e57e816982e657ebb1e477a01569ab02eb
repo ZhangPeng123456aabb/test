@@ -1,0 +1,15 @@
+
+vsquid:UselessImportCheck"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8“ŠçìÛ-
+lsquid:UselessImportCheck"<Remove this unused import 'com.baizhi.HighCharts.JedisUtil'.(ÕÙæ€ùÿÿÿÿ8ı…ÁìÛ-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³áïûüÿÿÿÿ
+Qsquid:S1481".Remove this unused "arrayList" local variable.(©íöÿÿÿÿÿ8¦õ¸ïÛ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8äô‘íÛ-
+`squid:S1854"=Remove this useless assignment to local variable "arrayList".(©íöÿÿÿÿÿ8»×¸ïÛ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ç½µô8ßÊõÛ-
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(á—ö>8ßÊõÛ-
+Lsquid:S1481")Remove this unused "list" local variable.(Ş×†èúÿÿÿÿ8ßÊõÛ-
+Fsquid:S1481"(Remove this unused "map" local variable.(†Òü8ßÊõÛ-
+Hsquid:S1481"*Remove this unused "entry" local variable.(ÿíç˜8ßÊõÛ-
+Usquid:S1854"7Remove this useless assignment to local variable "map".(†Òü8ßÊõÛ-
+[squid:S1854"8Remove this useless assignment to local variable "list".(Ş×†èúÿÿÿÿ8ßÊõÛ-

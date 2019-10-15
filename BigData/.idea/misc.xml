@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Hadoop_Test1" />
     <file type="web" url="file://$PROJECT_DIR$/Hbase" />
+    <file type="web" url="file://$PROJECT_DIR$/HighCharts" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,6 +12,13 @@
         <option value="$PROJECT_DIR$/Hadoop_Test1/pom.xml" />
         <option value="$PROJECT_DIR$/ZooKeeper_Test/pom.xml" />
         <option value="$PROJECT_DIR$/Hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/Hive_Test/pom.xml" />
+        <option value="$PROJECT_DIR$/HighCharts/pom.xml" />
+        <option value="$PROJECT_DIR$/statuspvuv/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/kafkastreaming/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-ab/pom.xml" />
       </list>
     </option>
   </component>

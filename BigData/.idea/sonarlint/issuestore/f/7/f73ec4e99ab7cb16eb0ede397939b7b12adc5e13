@@ -1,0 +1,5 @@
+
+Ksquid:S1481"(Remove this unused "num" local variable.(†¬›Äûÿÿÿÿ8äÎ¬›×-
+Msquid:S1481"*Remove this unused "value" local variable.(¥úë›ùÿÿÿÿ8ˆôƒ›×-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(þúŽÐúÿÿÿÿ8ì˜ÿš×-
+~squid:UselessImportCheck"NRemove this unused import 'org.apache.hadoop.hbase.io.ImmutableBytesWritable'.(Ÿ—ØÆúÿÿÿÿ8˜”®š×-

@@ -1,0 +1,6 @@
+
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(êõòêøÿÿÿÿ
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+csquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÜÒ‚Úøÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(›¡²´
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£ô¹ûÿÿÿÿ

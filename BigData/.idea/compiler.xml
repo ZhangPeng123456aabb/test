@@ -9,6 +9,13 @@
         <module name="Hadoop_Test" />
         <module name="Hadoop_Test1" />
         <module name="Hbase" />
+        <module name="HighCharts" />
+        <module name="Hive_Test" />
+        <module name="kafka" />
+        <module name="kafka-ab" />
+        <module name="kafka-demo" />
+        <module name="kafkastreaming" />
+        <module name="statuspvuv" />
         <module name="ZooKeeper_Test" />
       </profile>
     </annotationProcessing>
@@ -16,6 +23,14 @@
       <module name="Hadoop_Test" target="1.8" />
       <module name="Hadoop_Test1" target="1.8" />
       <module name="Hbase" target="1.7" />
+      <module name="HighCharts" target="1.8" />
+      <module name="Hive_Test" target="1.5" />
+      <module name="kafka" target="8" />
+      <module name="kafka-ab" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
+      <module name="kafka-streaming" target="1.5" />
+      <module name="kafkastreaming" target="8" />
+      <module name="statuspvuv" target="1.8" />
       <module name="ZooKeeper_Test" target="8" />
     </bytecodeTargetLevel>
   </component>

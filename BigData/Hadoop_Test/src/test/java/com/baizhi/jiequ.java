@@ -1,4 +1,4 @@
-package com.baizhi;
+/*package com.baizhi;
 
 public class jiequ {
     public static void main(String[] args) {
@@ -11,4 +11,4 @@ public class jiequ {
             System.out.println(s1);
         }
     }
-}
+}*/

@@ -1,0 +1,4 @@
+
+]squid:S1118":Add a private constructor to hide the implicit public one.(½Ã‹Áÿÿÿÿÿ8â³´Û×-
+hsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(÷ÌÂu8µ±ÙÛ×-
+qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å‰èx

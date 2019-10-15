@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <!-- main begin-->
+    <div class="zclf login logns">
+        <h1  class="blue">用户注册</h1>
+        <form action="/add" method="post">
+            <dl>
+                <dd>
+                    <label> <small>*</small>用户名</label>
+                    <input type="text" class="inputh lf" name="username"/>
+                    <span class="lf red laba">用户名要求不低于6个字符</span>
+                </dd>
+                <dd>
+                    <label> <small>*</small>密码</label>
+                    <input type="text" class="inputh lf" name="password"/>
+                    <div class="lf red laba">密码要求不低于6个字符</div>
+                </dd>
+                <dd>
+                    <label> <small>*</small>邮箱</label>
+                    <input type="text" class="inputh lf" name="email"/>
+                    <div class="lf red laba">邮箱号必填</div>
+                </dd>
+                <dd class="hegas">
+                    <label>&nbsp;</label>
+                    <input name="" type="submit" value="立即注册" class="spbg buttombg buttombgs f14 lf" />
+                </dd>
+            </dl>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

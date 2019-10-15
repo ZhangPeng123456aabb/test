@@ -1,0 +1,7 @@
+
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…ΐθρώÿÿÿÿ
+Jsquid:S1602",Remove useless curly braces around statement(›„νή8Ò¬ώ¬ά-
+¤squid:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—µ±ώύÿÿÿÿ8£Ϋ…¬ά-
+Osquid:S1602",Remove useless curly braces around statement(²Φλÿÿÿÿÿ8¤ύ¬ά-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Φλÿÿÿÿÿ8ω¬ά-
+Jsquid:S1612",Replace this lambda with a method reference.(›„νή8ÿ‘‚­ά-

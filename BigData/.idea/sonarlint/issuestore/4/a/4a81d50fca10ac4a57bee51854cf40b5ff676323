@@ -1,0 +1,6 @@
+
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8§ â£Ü-
+Fsquid:S11486"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¯¿ã£Ü-
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ò˜¤´øÿÿÿÿ
+]squid:UselessImportCheck
+"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8§ â£Ü-

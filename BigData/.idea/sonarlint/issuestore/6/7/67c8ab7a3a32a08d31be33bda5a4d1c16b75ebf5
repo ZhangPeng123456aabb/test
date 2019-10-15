@@ -1,0 +1,8 @@
+
+jsquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8ëäŒ¾×-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¤–Ê8ˆœ˜…Ú-
+Ysquid:S3518";Make sure "count" can't be zero before doing this division.(Ÿ¤–Ê8ß”™…Ú-
+ksquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(êõòêøÿÿÿÿ8¯ø‹¾×-
+jsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(‹¿ûŒÿÿÿÿÿ8½‡”¾×-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¨‰úÿÿÿÿ8úÙ…Ú-

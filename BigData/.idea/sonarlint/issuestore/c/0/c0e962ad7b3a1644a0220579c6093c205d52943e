@@ -1,0 +1,5 @@
+
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±×Ö
+‹squid:S1319	"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ĞÓ¢–8ê‡ÓÛ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ê‡ÓÛ-
+ksquid:UselessImportCheck"@Remove this unused import 'com.baizhi.HighCharts.entity.status'.(Ñ¬ß®8ê‡ÓÛ-

@@ -1,0 +1,6 @@
+
+®%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78î“Â¡Ü-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Äù„¦üÿÿÿÿ8ÓÝ¢Ü-
+wsquid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ûåžâ8î“Â¡Ü-
+[
+squid:S106+"9Replace this use of System.out or System.err by a logger.(ê©Ô¦úÿÿÿÿ8ñäü£Ü-

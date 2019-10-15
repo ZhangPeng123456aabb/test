@@ -5,7 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/Hadoop_Test/Hadoop_Test.iml" filepath="$PROJECT_DIR$/Hadoop_Test/Hadoop_Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hadoop_Test1/Hadoop_Test1.iml" filepath="$PROJECT_DIR$/Hadoop_Test1/Hadoop_Test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hbase/Hbase.iml" filepath="$PROJECT_DIR$/Hbase/Hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HighCharts/HighCharts.iml" filepath="$PROJECT_DIR$/HighCharts/HighCharts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hive_Test/Hive_Test.iml" filepath="$PROJECT_DIR$/Hive_Test/Hive_Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZooKeeper_Test/ZooKeeper_Test.iml" filepath="$PROJECT_DIR$/ZooKeeper_Test/ZooKeeper_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-ab/kafka-ab.iml" filepath="$PROJECT_DIR$/kafka-ab/kafka-ab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafka-demo/kafka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafkastreaming/kafkastreaming.iml" filepath="$PROJECT_DIR$/kafkastreaming/kafkastreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statuspvuv/statuspvuv.iml" filepath="$PROJECT_DIR$/statuspvuv/statuspvuv.iml" />
     </modules>
   </component>
 </project>

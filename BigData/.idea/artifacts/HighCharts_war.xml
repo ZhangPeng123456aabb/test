@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HighCharts:war">
+    <output-path>$PROJECT_DIR$/HighCharts/target</output-path>
+    <root id="archive" name="HighCharts.war">
+      <element id="artifact" artifact-name="HighCharts:war exploded" />
+    </root>
+  </artifact>
+</component>

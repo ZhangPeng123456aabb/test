@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"><link rel="icon" href="https://jscdn.com.cn/highcharts/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* css 代码  */
+        #datatable {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            border-spacing: 0;
+            font-size: 12px;
+        }
+        td,th {
+            border: 1px solid #ccc;
+            padding: 4px 20px;
+        }
+    </style>
+    <script src="https://code.highcharts.com.cn/highcharts/highcharts.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts/modules/data.js"></script>
+    <script src="https://img.hcharts.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+    <script src="https://code.highcharts.com.cn/highcharts/themes/dark-unica.js"></script>
+    <script type="text/javascript">
+        $(function () {
+           $.ajax({
+               url:"pu",
+               type:"post",
+               data:{},
+               success:function (data) {
+                   var str="";
+                   for (i in data) {
+                       str += "<tr>\n" +
+                           "                       <th></th>\n" +
+                           "                       <td></td>\n" +
+                           "                       <td></td>\n" +
+                           "                       </tr>";
+                   }
+                   document.getElementById("tbodydata").innerHTML=str;
+               }
+           });
+        });
+    </script>
+</head>
+<body>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<p>数据表格</p>
+<table id="datatable">
+    <thead>
+    <tr>
+        <th></th>
+        <th>PV</th>
+        <th>UV</th>
+    </tr>
+    </thead>
+    <tbody id="tbodydata"><tr>
+        <th>${showTime}</th>
+        <td>${pv}</td>
+        <td>${uv}</td>
+    </tr></tbody>
+</table>
+<script>
+    // JS 代码
+    var chart = Highcharts.chart('container', {
+        data: {
+            table: 'datatable'
+        },
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: '从 HTML 表格中提取数据并生成图表'
+            // 该功能依赖 data.js 模块，详见https://www.hcharts.cn/docs/data-modules
+        },
+        yAxis: {
+            allowDecimals: false,
+            title: {
+                text: '个',
+                rotation: 0
+            }
+        },
+        tooltip: {
+            formatter: function () {
+                return '<b>' + this.series.name + '</b><br/>' +
+                    this.point.y + ' 个' + this.point.name.toLowerCase();
+            }
+        }
+    });
+</script>
+</body>
+</html>

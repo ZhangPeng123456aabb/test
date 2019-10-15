@@ -1,0 +1,8 @@
+
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óéËûÿÿÿÿ
+dsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜İ³
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+gsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(±àÒ¼ùÿÿÿÿ
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(êõòêøÿÿÿÿ
+^squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ù‰û¦
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡şÙ«ùÿÿÿÿ

@@ -1,0 +1,12 @@
+com\baizhi\logs\LogsReducer.class
+com\baizhi\mr\UserMapper.class
+com\baizhi\Job\Job01.class
+com\baizhi\Job\Job02$Job02Reducer.class
+com\baizhi\logs\LogsRunner.class
+com\baizhi\Job\Job02$Job02Mapper.class
+com\baizhi\Job\Job01$HDFS2HBASEMapper$HDFS2HBASEReducer.class
+com\baizhi\mr\JobRunner.class
+com\baizhi\Job\Job01$HDFS2HBASEMapper.class
+com\baizhi\mr\UserReducer.class
+com\baizhi\Job\Job02.class
+com\baizhi\logs\LogsMapper.class

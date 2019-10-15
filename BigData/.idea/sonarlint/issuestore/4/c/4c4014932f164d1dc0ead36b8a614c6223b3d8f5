@@ -1,0 +1,8 @@
+
+hsquid:S2095"KUse try-with-resources or close this "KafkaConsumer" in a "finally" clause.(ºÇÓP8÷¬æØÜ-
+nsquid:S2095"KUse try-with-resources or close this "KafkaProducer" in a "finally" clause.(ÌÙ€Ìùÿÿÿÿ8÷¬æØÜ-
+Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷¬æØÜ-
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÇÓP8÷¬æØÜ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(°†·8÷¬æØÜ-
+isquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(Úˆç†8÷¬æØÜ-

@@ -1,0 +1,7 @@
+
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•¨€
+usquid:UselessImportCheck"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8ÙËÛ-
+‹squid:S1319
+"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ĞÓ¢–8¸ŒÓÛ-
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¸ŒÓÛ-
+ksquid:UselessImportCheck"@Remove this unused import 'com.baizhi.HighCharts.entity.status'.(Ñ¬ß®8¸ŒÓÛ-

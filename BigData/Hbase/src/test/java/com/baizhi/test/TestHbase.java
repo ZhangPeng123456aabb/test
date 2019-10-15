@@ -1,3 +1,4 @@
+
 package com.baizhi.test;
 
 import org.apache.commons.io.filefilter.PrefixFileFilter;
@@ -6,6 +7,7 @@ import org.apache.hadoop.hbase.*;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.filter.FilterList;
 import org.apache.hadoop.hbase.filter.PrefixFilter;
+import org.apache.hadoop.hbase.util.Bytes;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,6 +15,7 @@ import org.mortbay.util.IntrospectionUtil;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class TestHbase {
     private Configuration configuration;
@@ -21,6 +24,10 @@ public class TestHbase {
     @Before
     public void getClient()throws Exception{
         configuration = new Configuration();
+ configuration.set("hbase.zookeeper.quorum", "HadoopNode00");
+
+        configuration.set("hbase.zookeeper.quorum", "192.168.182.21,192.168.182.22,192.168.182.23");
+
         configuration.set("hbase.zookeeper.quorum", "HadoopNode00");
         configuration.set("hbase.zookeeper.property.clientPort", "2181");
         conn = ConnectionFactory.createConnection(configuration);
@@ -28,7 +35,7 @@ public class TestHbase {
     }
     @Test
     public void createNameSpace()throws Exception{
-        NamespaceDescriptor namespaceDescriptor = NamespaceDescriptor.create("baizhi123").addConfiguration("admin", "gjf").build();
+        NamespaceDescriptor namespaceDescriptor = NamespaceDescriptor.create("baizhi").addConfiguration("admin", "gjf").build();
         admin.createNamespace(namespaceDescriptor);
     }
     @Test
@@ -49,30 +56,31 @@ public class TestHbase {
     }
     @Test
     public void createTables()throws Exception{
-        /**
-         * 创建表名的对象（封装表名字）
-         */
-        TableName tableName = TableName.valueOf("baizhi:t_user1");
-        /**
-         * 封装表的相关信息
-         */
+              // 创建表名的对象（封装表名字）
+
+
+        TableName tableName = TableName.valueOf("baizhi:t_user02");
+           // 封装表的相关信息
+
+
         HTableDescriptor hTableDescriptor = new HTableDescriptor(tableName);
-        /**
-         * 封装列簇的相关信息
-         */
+          // 封装列簇的相关信息
+
+
         HColumnDescriptor cf1 = new HColumnDescriptor("cf1");
         cf1.setMaxVersions(3);
 
         HColumnDescriptor cf2 = new HColumnDescriptor("cf2");
         cf2.setMaxVersions(3);
-        /**
-         * 在hTableDescriptor对象中添加列簇描述对象
-         */
+
+         //在hTableDescriptor对象中添加列簇描述对象
+
+
         hTableDescriptor.addFamily(cf1);
         hTableDescriptor.addFamily(cf2);
-        /**
-         * 创建table
-         */
+               // 创建table
+
+
         admin.createTable(hTableDescriptor);
     }
     @Test
@@ -85,9 +93,9 @@ public class TestHbase {
     @Test
     public void testPutOne()throws Exception{
         TableName tableName = TableName.valueOf("baizhi:t_user");
-        /**
-         * 通过conn对象获得table的操作对象
-         */
+           // 通过conn对象获得table的操作对象
+
+
         Table table = conn.getTable(tableName);
         Put put1 = new Put("6".getBytes());
         put1.addColumn("cf1".getBytes(),"name".getBytes(),"zhangsan".getBytes());
@@ -185,6 +193,51 @@ public class TestHbase {
         }
     }
     @Test
+    public void testPut03() throws Exception {
+        TableName tname = TableName.valueOf("baizhi:t_user02");
+
+        BufferedMutator mb = conn.getBufferedMutator(tname);
+
+
+        String[] company = {"baidu", "ali", "sina"};
+        List<Put> list = new ArrayList<>();
+        for (int i = 1; i < 1000; i++) {
+
+            //得到随机的公司名称
+            String rowkeyP = company[new Random().nextInt(3)];
+
+
+            String empid = "";
+            if (i < 10) {
+
+
+
+                empid = "00" + i;
+            } else if (i < 100) {
+                empid = "0" + i;
+            } else {
+
+                empid = "" + i;
+
+            }
+
+
+            //  baidu:001
+            String rowkey = rowkeyP + ":" + empid;
+
+            Put put = new Put(rowkey.getBytes());
+            put.addColumn("cf1".getBytes(), "name".getBytes(), "lisi1".getBytes());
+            put.addColumn("cf1".getBytes(), "age".getBytes(), "281".getBytes());
+            put.addColumn("cf1".getBytes(), "sex".getBytes(), "false".getBytes());
+            put.addColumn("cf1".getBytes(), "salary".getBytes(), Bytes.toBytes(100.0 * i));
+            list.add(put);
+        }
+
+
+        mb.mutate(list);
+        mb.close();
+    }
+    @Test
     public void testScan()throws Exception{
         TableName tableName = TableName.valueOf("baizhi:t_user");
         Table table = conn.getTable(tableName);
@@ -211,3 +264,4 @@ public class TestHbase {
         conn.close();
     }
 }
+

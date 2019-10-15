@@ -1,0 +1,5 @@
+
+csquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(œ®þƒýÿÿÿÿ
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµþÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áÓö„
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(êõòêøÿÿÿÿ
